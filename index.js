@@ -9,7 +9,7 @@
 }(this, function () {
   var config = null
   var directAccess = false
-  var gapiUrl = 'https://apis.google.com/js/api:client.js'
+  var gapiUrl = 'https://apis.google.com/js/platform.js'
 
   var gAuth = {
     install: function (Vue, options) {
