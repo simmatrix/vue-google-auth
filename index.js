@@ -17,7 +17,7 @@
       Vue.prototype.$googleAuth = googleAuth
 
       if (typeof options === 'object') {
-        config = Object.assign({ scope: 'profile email' }, options)
+        config = Object.assign({}, { scope: 'profile email' }, options)
       }
     }
   }
